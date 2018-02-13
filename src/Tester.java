@@ -1,11 +1,14 @@
 
 public class Tester {
-	
-   public static int doProcess(int a,int b) {
+
+   public static int doProcess(int a,int b,boolean k,int r) {
+
 	  int r=0;
 	  b*=0.2;
-	   
-	   return r+(8*b*190);
+	   int newInt = 999;
+if(k) newInt = 15;
+	   return (r+a+b)/newInt;
+ 
    }
 	
 	public static void main(String[] args) {
